@@ -5,7 +5,6 @@ function App(){
   return (
     <React.Fragment>
       <ScheduleControl />
-      <ProduceControl />
     </React.Fragment>
   );
 }
