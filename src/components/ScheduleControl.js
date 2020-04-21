@@ -36,28 +36,3 @@ class ScheduleControl extends React.Component {
 
 export default ScheduleControl; 
 
-
-// class ScheduleControl extends React.Component {
-
-//   constructor(props) {
-//     super(props);
-//     this.state = {
-//       currentMarketSchedule = {}
-//     }
-//   }
-
-//   handleDeterminingSchedule = (selectedDate) => {
-//     this.setState({currentMarketSchedule: masterScheduleList[selectedDate]});
-//   }  
-
-//   render(){
-//     return(
-//       <React.Fragment>
-//         <DaySelection />
-//         <ScheduleDetails />
-//       </React.Fragment>
-//     );
-//   }
-// }
-
-// export default ScheduleControl;

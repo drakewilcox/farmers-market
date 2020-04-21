@@ -29,12 +29,6 @@ const masterSchedule = [
     hours: "2:00pm - 6:00pm",
     booth: "6D"
  },
- {
-    day: "Friday",
-    locations: "Brian's Bong Bungalo",
-    hours: "4:20am - 4:20pm",
-    booth: "69"
- }
  {  
     day: "Saturday",
     location: "Beaverton",
