@@ -52,6 +52,3 @@ _Open the contents of the directory in a text editor or IDE of your choice (e.g.
 ### License
 
 *This webpage is licensed under the MIT license.*
-
-Co-authored-by: jeremy kale padot <jeremy@padot.us>
-Co-authored-by: Patrick Delaney <prestwick97@gmail.com>
