@@ -53,14 +53,14 @@ class ScheduleControl extends React.Component {
   }
 
   handleDeterminingSchedule = (selectedDate) => {
-    this.setState({currentMarketSchedule: marketSchedule[selectedDate]});
+    this.setState({currentMarketSchedule: masterScheduleList[selectedDate]});
   }  
 
   render(){
     return(
       <React.Fragment>
         <DaySelection />
-        <ScheduleDetails/>
+        <ScheduleDetails />
       </React.Fragment>
     );
   }
