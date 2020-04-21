@@ -267,16 +267,16 @@ const avaliableProduce = [  //masterAvaliableProduce?
          "Potatoes",
          "Turnips"
       ]
-   }
+   }                            //come back to configue loop within a loop
 ];
 function ProduceList(){
   return (
     <React.Fragment>
      <hr/>
-     {avaliableProduce.map((produce, index) =>  //map?
+     {avaliableProduce.map((produce, index) =>  //map is a type of loop, only for arrays
       <Produce month={produce.month}
       selection={produce.selection}
-      key={index}/>  //what is this?
+      key={index}/>  //key = index of array -> numbered id 
      )}
     </React.Fragment>
   );
