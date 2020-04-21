@@ -4,17 +4,20 @@ import PropTypes from "prop-types";
 function Schedule(props){
   return (
     <React.Fragment>
-      <h3>{props.location} - {props.names}</h3>
-      <p><em>{props.issue}</em></p>
+      <h3>{props.day}</h3>
+      <h3>{props.location}</h3>
+      <h3>{props.booth}</h3>
+      <p><em>{props.hours}</em></p>
       <hr/>
     </React.Fragment>
   );
 }
 
 Schedule.propTypes = {
-  names: PropTypes.string, 
+  day: PropTypes.string, 
   location: PropTypes.string, 
-  issue: PropTypes.string
+  hours: PropTypes.string,
+  booth: PropTypes.string
 };
 
 export default Schedule;
