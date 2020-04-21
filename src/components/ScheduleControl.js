@@ -2,6 +2,7 @@ import React from 'react';
 // import NewTicketForm from './NewTicketForm';
 import DaySelection from './DaySelection.js';
 import ScheduleDetails from './ScheduleDetails.js';
+import { render } from '@testing-library/react';
 
 const masterScheduleList = [
   {  
@@ -42,28 +43,35 @@ const masterScheduleList = [
  }
 ];
 
-
 class ScheduleControl extends React.Component {
-
-  constructor(props) {
-    super(props);
-    this.state = {
-      currentMarketSchedule = {}
-    }
-  }
-
-  handleDeterminingSchedule = (selectedDate) => {
-    this.setState({currentMarketSchedule: masterScheduleList[selectedDate]});
-  }  
-
-  render(){
-    return(
-      <React.Fragment>
-        <DaySelection />
-        <ScheduleDetails />
-      </React.Fragment>
-    );
-  }
+  
 }
 
-export default ScheduleControl;
+
+
+
+
+// class ScheduleControl extends React.Component {
+
+//   constructor(props) {
+//     super(props);
+//     this.state = {
+//       currentMarketSchedule = {}
+//     }
+//   }
+
+//   handleDeterminingSchedule = (selectedDate) => {
+//     this.setState({currentMarketSchedule: masterScheduleList[selectedDate]});
+//   }  
+
+//   render(){
+//     return(
+//       <React.Fragment>
+//         <DaySelection />
+//         <ScheduleDetails />
+//       </React.Fragment>
+//     );
+//   }
+// }
+
+// export default ScheduleControl;

@@ -17,13 +17,13 @@ class ProduceControl extends React.Component{
   render(){
     // this.setState({property: update})
     // this.setState(monthObject) = dropdownselection
-    // const produceSelections = monthObject.selection;
+    // const produceOptions = monthObject.selection;
     // const monthName = monthObject.month;
     return(
       <React.Fragment>
         
         {
-        // <ProduceList produceSelections={monthObject.selection}
+        // <ProduceList produceOptions={monthObject.selection}
         //   monthName={monthObject.month} />
         }
       </React.Fragment>
