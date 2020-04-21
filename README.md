@@ -1,3 +1,6 @@
+# Farmers Market
+## An application by: Drake Wilcox, Patrick Delaney, and Jeremy Kale Padot
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +69,8 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+#### Co-author information:
+
+Co-authored-by: jeremy kale padot <jeremy@padot.us>
+Co-authored-by: Patrick Delaney <prestwick97@gmail.com>
