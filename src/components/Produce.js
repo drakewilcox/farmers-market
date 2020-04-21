@@ -4,15 +4,12 @@ import PropTypes from "prop-types";
 function Produce(props){
   return (
     <React.Fragment>
-      <h3>{props.month}</h3>
-      <ul>
-      <li>{props.selection}</li>
-      </ul>
       <hr/>
+      <h1>{props.month}</h1>
+      <p> {props.selection} </p>
     </React.Fragment>
   );
 }
-// avaliable produce selection is an array, will i need to apply that somehow? 
 Produce.propTypes = {
   month: PropTypes.string, 
   selection: PropTypes.string, 

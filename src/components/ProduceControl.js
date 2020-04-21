@@ -15,7 +15,7 @@ class ProduceControl extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <h4>DAYS</h4>
+        <h4>MONTHS</h4>
         <p><button onClick={() => this.handleClick(1)}>January</button></p>
         <p><button onClick={() => this.handleClick(2)}>February</button></p>
         <p><button onClick={() => this.handleClick(3)}>March</button></p>
@@ -28,10 +28,14 @@ class ProduceControl extends React.Component {
         <p><button onClick={() => this.handleClick(10)}>October</button></p>
         <p><button onClick={() => this.handleClick(11)}>November</button></p>
         <p><button onClick={() => this.handleClick(0)}>December</button></p>
+
+      <Produce
+        month={this.state.month} />
+
+      {this.state.selection.map((product) =>
         <Produce
-          month={this.state.month}
-          selection={this.state.selection}
-          />
+          selection={product} />
+      )} 
       </React.Fragment>
     );
   }
