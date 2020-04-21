@@ -1,4 +1,5 @@
 import React from "react";
+import ScheduleControl from "./ScheduleControl.js"
 
 function App(){
   return (

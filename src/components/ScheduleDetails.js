@@ -18,4 +18,4 @@ function ScheduleDetails(){
   );
 }
 
-export default ScheduleList;
+export default ScheduleDetails;
